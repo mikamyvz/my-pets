@@ -1,2 +1,3 @@
-# my-pets-legacy
-Projeto de landing page que divulga uma campanha de vacinação contra raiva.
+Projeto mypet é uma proposta de campanha de vacinação contra a raiva
+
+Para acessar o projeto acesse: https://jakelineliima.github.io/mypet/
