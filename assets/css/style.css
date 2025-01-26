@@ -1,44 +1,57 @@
-.hero, .sobre
-{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 55px;
+/* Sections */
+
+.hero h1 {
+  max-width: 385px;
 }
 
-.grid:nth-child(1)
-{
+.hero p {
+  max-width: 365px;
+  margin: 24px 0;
+}
+
+/* Hero and About */
+.hero,
+.about {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+
+/* About */
+
+.about h2 {
+  max-width: 390px;
+}
+
+.about p {
+  max-width: 460px;
+  margin: 24px 0;
+}
+
+.grid:nth-child(1) {
   grid-column: 1/2;
   display: flex;
   justify-content: center;
 }
 
-.grid:nth-child(2)
-{
+.grid:nth-child(2) {
   grid-column: 2/3;
 }
 
-.grid > img
-{
+.grid>img {
   width: 640px;
   height: 433px;
   object-fit: cover;
 }
 
-.title
-{
-  font-size: 40px;
-  color: #7b61ff;
-}
 
-.flexDiv
-{
+.flexDiv {
   display: flex;
   flex-direction: column;
   align-self: center;
 }
 
-.btns
-{
+.btns {
   background-color: #7B61FF;
   color: #fff;
   width: 215px;
@@ -51,43 +64,38 @@
   letter-spacing: .5px;
 }
 
-.btns:hover
-{
+.btns:hover {
   background-color: #9581FF;
 }
 
-.btns:active
-{
+.btns:active {
   background-color: #B0A0FF;
 }
 
-.cronograma .title, .duvidas .title
-{
+.cronograma .title,
+.duvidas .title {
   text-align: center;
 }
 
-.cronograma
-{
+.cronograma {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 90px;
 }
 
-.duvidas
-{
+.duvidas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 90px;
 }
 
-.duvidas > div, .item
-{
+.duvidas>div,
+.item {
   grid-column: 2/3;
 }
 
-.item > label
-{
+.item>label {
   display: flex;
   align-items: center;
   border-radius: 4px;
@@ -100,14 +108,12 @@
   padding-left: 12px;
 }
 
-.item > label:hover
-{
+.item>label:hover {
   transition: all 200ms ease;
   color: #D2D2D2;
 }
 
-.item > ul
-{
+.item>ul {
   width: 100%;
   list-style: none;
   overflow: hidden;
@@ -116,20 +122,17 @@
   padding: 0;
 }
 
-.item > input
-{
+.item>input {
   display: none;
 }
 
-.item > input:checked ~ ul
-{
+.item>input:checked~ul {
   height: auto;
   max-height: 200px;
   transform: all;
 }
 
-.item > input:checked ~ label
-{
+.item>input:checked~label {
   background-color: #7B61FF;
   border: none;
   color: #fff;
@@ -137,40 +140,38 @@
 }
 
 
-@media only screen and (max-width: 900px)
-{
-  .hero, .sobre
-  {
+@media only screen and (max-width: 900px) {
+
+  .hero,
+  .sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .sobre
-  {
+
+  .sobre {
     flex-direction: column-reverse;
   }
-  .grid
-  {
+
+  .grid {
     margin: 0 50px;
   }
-  .grid > p
-  {
+
+  .grid>p {
     margin: 15px 0;
   }
-  .grid > img
-  {
+
+  .grid>img {
     margin: 20px 0;
   }
-  .cronograma
-  {
+
+  .cronograma {
     margin-top: 90px;
   }
 }
 
-@media only screen and (max-width: 570px)
-{
-  .item > label
-  {
+@media only screen and (max-width: 570px) {
+  .item>label {
     width: 440px;
     height: 70px;
   }
