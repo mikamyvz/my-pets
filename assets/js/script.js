@@ -20,3 +20,16 @@ document.querySelectorAll('.faq-question').forEach(button => {
         }
     });
 });
+
+// Animação no scroll
+// Função para verificar se um elemento está visível na tela
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
