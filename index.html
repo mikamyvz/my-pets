@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Css -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +17,7 @@
   <!-- Remix Icons CDN -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
   <!-- Fav Icon -->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <title>Mypets | Campanha de vacinação contra a raiva 2025</title>
 </head>
 
@@ -25,7 +27,7 @@
   <header class="header flex">
     <!-- Logo -->
     <a href="index.html">
-      <img src="img/logo.svg" alt="Mypets Logo" />
+      <img src="assets/img/logo.svg" alt="Mypets Logo" />
     </a>
     <nav class="navbar" id="navbar">
       <!-- Menu Ham -->
@@ -35,7 +37,7 @@
       <!-- Nav Links -->
       <ul class="nav-links flex" id="nav-links">
         <li>
-          <a href="#home" class="nav-link">Home</a>
+          <a href="index.html" class="nav-link">Home</a>
         </li>
         <li>
           <a href="#sobre" class="nav-link">Sobre</a>
@@ -60,16 +62,15 @@
   <section class="hero container flex" id="home">
     <!-- Hero Text -->
     <div>
-      <h1>Porque é importante vacinar meu pet?</h1>
+      <h1>Proteja Seu Melhor Amigo <br> Vacinação é Essencial!</h1>
       <p>
-        A vacinação é um cuidado essencial, pois por meio
-        dela seu pet fica protegido de doença infecciosas
-        que podem até ser fatais.
+        A vacinação é o primeiro passo para garantir uma vida longa e saudável para seu companheiro. Não deixe para
+        depois, vacine seu pet hoje mesmo!
       </p>
-      <a href="#" class="btn">Vacinar Meu Pet</a>
+      <a href="#" class="btn">Vacine Agora</a>
     </div>
     <!-- Hero Image -->
-    <img src="img/hero-img.png" alt="Cachorro">
+    <img src="assets/img/hero-img.png" alt="Cachorro">
   </section>
 
   <!-- About -->
@@ -77,17 +78,16 @@
     <div class="container flex-center">
       <!-- About Image -->
       <div>
-        <img src="img/about-img.png" alt="Gato">
+        <img src="assets/img/about-img.png" alt="Gato">
       </div>
       <!-- Box -->
       <div>
-        <h2>É gratuito a proteção para seu pet.</h2>
+        <h2>Sobre a Nossa Campanha <br> de Vacinação de Pets</h2>
         <p>
-          A campanha é necessária para cuidar dos nossos
-          pets, pois promove proteção contra a raiva que
-          pode ser fatal, vacinar seu animal é de extrema
-          importância pois assim você protege ele e outros
-          animais.
+          Nossa missão é garantir que todos os pets tenham acesso à vacinação de forma simples, acessível e eficiente.
+          Sabemos que
+          a saúde dos nossos animais de estimação é uma prioridade, e a vacinação é uma das maneiras mais eficazes de
+          protegê-los contra doenças graves.
         </p>
         <!-- Button -->
         <a href="#" class="btn">Saiba Mais</a>
@@ -170,42 +170,30 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials section-light" id="testemunhos">
+  <section class="testimonials section-light flex-center" id="testemunhos">
     <div class="container">
-      <div>
-        <h2>Testemunhos</h2>
+      <div class="title-section flex-center">
+        <span>Testemunhos</span>
+        <h2>O Que Estão Dizendo</h2>
       </div>
-      <!-- Cards -->
-      <div class="test-cards">
-        <!-- Card 1 -->
-        <div class="test-card">
+      <div>
+        <!-- Quote 1 -->
+        <div class="test-quote">
           <i class="ri-double-quotes-l"></i>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Neque sit purus justo enim lacinia risus metus. Massa tincidunt
-            viverra auctor
-            amet sollicitudin integer.
+            "Vacinar meu cachorro nunca foi tão fácil. O posto foi rápido e o atendimento excelente!"
           </p>
-          <h5>John Doe</h5>
+          <h6>Mariana, dona do Rex</h6>
         </div>
-        <!-- Card 2 -->
-        <div class="test-card">
-          <i class="ri-double-quotes-l"></i>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Neque sit purus justo enim lacinia risus metus. Massa tincidunt
-            viverra auctor
-            amet sollicitudin integer.
-          </p>
-          <h5>John Doe</h5>
+      </div>
+      <div class="arrows flex">
+        <!-- Right -->
+        <div class="flex-center">
+          <i class="ri-arrow-drop-left-line"></i>
         </div>
-        <!-- Card 3 -->
-        <div class="test-card">
-          <i class="ri-double-quotes-l"></i>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Neque sit purus justo enim lacinia risus metus. Massa tincidunt
-            viverra auctor
-            amet sollicitudin integer.
-          </p>
-          <h5>John Doe</h5>
+        <!-- Left -->
+        <div class="flex-center">
+          <i class="ri-arrow-drop-right-line"></i>
         </div>
       </div>
     </div>
