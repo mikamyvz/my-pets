@@ -1,0 +1,16 @@
+.hero {
+    height: 100vh;
+}
+
+.hero p {
+    max-width: 515px;
+    margin: 24px 0;
+}
+
+/* Hero and About */
+.hero,
+.about>.container {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}

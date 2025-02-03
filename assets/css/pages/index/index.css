@@ -1,0 +1,13 @@
+/* Global */
+@import'/assets/css/global/normalize.css';
+@import'/assets/css/global/fonts.css';
+@import'/assets/css/global/variables.css';
+@import'/assets/css/global/elements.css';
+@import'/assets/css/global/global.css';
+
+/* Pages > Index > Partials  */
+@import'./partials/hero.css';
+@import'./partials/about.css';
+@import'./partials/posts.css';
+@import'./partials/testimonials.css';
+@import'./partials/faq.css';

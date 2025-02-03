@@ -1,0 +1,23 @@
+/* Global Styles */
+
+/* Variables */
+:root {
+    /* Font Familys - Headlines - Font Sizes */
+    --font: 'Nunito', sans-serif;
+    --h1: 2.5rem;
+    --h2: 2.25rem;
+    --h3: 1.75rem;
+    --h4: 1.5rem;
+    --h5: 1.25rem;
+    --h6: 1rem;
+    --text-14: .875rem;
+    /* Colors */
+    --primary: #2a9d8f;
+    --dark: #202020;
+    --gray: #404040;
+    --light: #EAEAEA;
+    --lightest: #FAFAFA;
+    /* Effects */
+    --glow: 0 3px 20px rgba(42, 157, 143, .30);
+    --shadow: 0 -2px 20px rgba(32, 32, 32, .06);
+}

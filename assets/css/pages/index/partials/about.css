@@ -1,0 +1,10 @@
+/* About */
+
+.about h2 {
+    margin: 0;
+}
+
+.about p {
+    max-width: 500px;
+    margin: 24px 0;
+}

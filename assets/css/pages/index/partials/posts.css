@@ -1,0 +1,39 @@
+/* Posts */
+
+.posts h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.posts .btn-container {
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+.post-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.post-card {
+    padding: 40px 24px;
+    background: var(--lightest);
+    border-radius: 12px;
+}
+
+.post-card h3 {
+    font-size: var(--h5);
+    margin-bottom: 6px;
+}
+
+.post-card span {
+    font-size: var(--text-14);
+    color: var(--gray);
+}
+
+.post-card hr {
+    padding: 0 24px;
+    margin: 24px 0;
+}
