@@ -5,14 +5,13 @@
     line-height: 1;
     letter-spacing: .5px;
     border-radius: 40px;
-    background: var(--primary);
-    color: #FFF;
-    box-shadow: var(--glow);
+    background: var(--persian-500);
+    color: var(--persian-50);
     transition: ease-in .2s;
 }
 
 .btn:hover {
-    transform: translateY(-7px);
+    background: var(--persian-600);
 }
 
 input {

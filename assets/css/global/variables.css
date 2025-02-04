@@ -1,23 +1,31 @@
-/* Global Styles */
-
-/* Variables */
+/* Font Familys- Headlines - Fonts Sizes */
 :root {
-    /* Font Familys - Headlines - Font Sizes */
     --font: 'Nunito', sans-serif;
     --h1: 2.5rem;
-    --h2: 2.25rem;
+    --h2: 2rem;
     --h3: 1.75rem;
     --h4: 1.5rem;
     --h5: 1.25rem;
     --h6: 1rem;
-    --text-14: .875rem;
-    /* Colors */
-    --primary: #2a9d8f;
-    --dark: #202020;
-    --gray: #404040;
-    --light: #EAEAEA;
-    --lightest: #FAFAFA;
+    --text-small: .875rem;
+    --text-tiny: .75rem;
+
     /* Effects */
     --glow: 0 3px 20px rgba(42, 157, 143, .30);
     --shadow: 0 -2px 20px rgba(32, 32, 32, .06);
+}
+
+/* Colors */
+:root {
+    --persian-50: #F2FBF9;
+    --persian-100: #D3F4ED;
+    --persian-200: #A6E9DB;
+    --persian-300: #72D6C6;
+    --persian-400: #44BDAC;
+    --persian-500: #2A9D8F;
+    --persian-600: #208177;
+    --persian-700: #1D6861;
+    --persian-800: #1C534F;
+    --persian-900: #1B4642;
+    --persian-950: #0A2928;
 }
