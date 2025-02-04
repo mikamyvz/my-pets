@@ -1,0 +1,47 @@
+.equipe>.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.equipe>.container p {
+    max-width: 500px;
+    margin-bottom: 24px;
+}
+
+.equipe>.container span {
+    display: inline-block;
+    font-size: var(--h6);
+    font-weight: bold;
+    color: var(--persian-900);
+    margin: 6px 0 16px 0;
+}
+
+.equipe .social-icons {
+    gap: 16px;
+}
+
+.equipe .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--persian-100);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.equipe .social-icons a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--persian-200);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.equipe .social-icons i {
+    color: var(--persian-500);
+}

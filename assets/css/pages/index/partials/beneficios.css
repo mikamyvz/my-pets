@@ -1,0 +1,31 @@
+.beneficios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+}
+
+.beneficios .title-section {
+    grid-column: 1/5;
+    margin-bottom: 60px;
+}
+
+.beneficios .bene-card {
+    width: 267px;
+    height: 250px;
+    background: var(--persian-50);
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.beneficios img {
+    background: var(--persian-100);
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.beneficios p {
+    padding: 6px 24px;
+}

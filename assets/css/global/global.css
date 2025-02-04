@@ -25,7 +25,7 @@
 }
 
 .title-section span {
-    font-size: var(--text-12);
+    font-size: var(--text-tiny);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
