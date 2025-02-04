@@ -5,91 +5,69 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Css -->
+  <!-- css -->
   <link rel="stylesheet" href="assets/css/pages/index/index.css">
-
-  <!-- Remix Icons CDN -->
+  <!-- remix icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-  <!-- Fav Icon -->
   <link rel="shortcut icon" href="assets/images/global/favicon.ico" type="image/x-icon" />
   <title>Mypets | Campanha de vacinação contra a raiva 2025</title>
 </head>
 
 <body>
-
-  <!-- Header -->
-  <header class="header flex">
-    <!-- Logo -->
+  <!-- header -->
+  <header class="flex">
     <a href="/index.html">
       <img src="assets/images/global/logo.svg" alt="Mypets Logo" />
     </a>
     <nav class="navbar" id="navbar">
-      <!-- Menu Ham -->
+      <!-- menu mobile -->
       <button id="btn-mobile">
         <span id="ham-btn"></span>
       </button>
-      <!-- Nav Links -->
-      <ul class="nav-links flex" id="nav-links">
-        <li>
-          <a href="/index.html" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="/pages/sobre.html" class="nav-link">Sobre</a>
-        </li>
-        <li>
-          <a href="#postos" class="nav-link">Postos</a>
-        </li>
-        <li>
-          <a href="#testemunhos" class="nav-link">Testemunhos</a>
-        </li>
-        <li>
-          <a href="#duvidas" class="nav-link">Dúvidas</a>
-        </li>
-        <li>
-          <a href="/pages/ficha.html" class="nav-link">Ficha Online</a>
-        </li>
-      </ul>
+      <!-- nav-links -->
+      <div class="nav-links flex" id="navbar">
+        <a href="/index.html">Home</a>
+        <a href="/pages/sobre.html">Sobre</a>
+        <a href="#postos">Postos</a>
+        <a href="#testemunhos">Testemunhos</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="/pages/ficha.html">Ficha Online</a>
+      </div>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero container flex" id="home">
-    <!-- Hero Text -->
+  <!-- seção hero -->
+  <section class="hero container flex">
     <div>
-      <h1>Proteja Seu Melhor Amigo <br> Vacinação é Essencial!</h1>
+      <h1>Proteja seu pet,<br>proteja sua família</h1>
       <p>
-        A vacinação é o primeiro passo para garantir uma vida longa e saudável para seu companheiro. Não deixe para
-        depois, vacine seu pet hoje mesmo!
+        A vacina contra a raiva é essencial para a saúde do seu melhor amigo. Leve seu pet para vacinar e ajude a manter
+        todos seguros!
       </p>
       <a href="#" class="btn">Vacine Agora</a>
     </div>
-    <!-- Hero Image -->
+
     <img src="assets/images/pages/index/hero-img.png" alt="Cachorro">
   </section>
 
-  <!-- About -->
-  <section class="about section-light" id="sobre">
+  <!-- seção sobre -->
+  <section class="sobre section-light" id="sobre">
     <div class="container flex-center">
-      <!-- About Image -->
+      <img src="assets/images/pages/index/about-img.png" alt="Gato">
       <div>
-        <img src="assets/images/pages/index/about-img.png" alt="Gato">
-      </div>
-      <!-- Box -->
-      <div>
-        <h2>Sobre a Nossa Campanha <br> de Vacinação de Pets</h2>
+        <h2>Sobre a Nossa Campanha<br> deVacinação de Pets</h2>
         <p>
           Nossa missão é garantir que todos os pets tenham acesso à vacinação de forma simples, acessível e eficiente.
           Sabemos que
           a saúde dos nossos animais de estimação é uma prioridade, e a vacinação é uma das maneiras mais eficazes de
           protegê-los contra doenças graves.
         </p>
-        <!-- Button -->
         <a href="#" class="btn">Saiba Mais</a>
       </div>
     </div>
   </section>
 
-  <!-- Posts Vac -->
+  <!-- postos de vacinação -->
   <section class="posts container" id="postos">
     <!-- Title -->
     <div>
@@ -163,7 +141,7 @@
     </div>
   </section>
 
-  <!-- Testimonials -->
+  <!-- testemunhos -->
   <section class="testimonials section-light flex-center" id="testemunhos">
     <div class="container">
       <div class="title-section flex-center">
@@ -193,7 +171,7 @@
     </div>
   </section>
 
-  <!-- FAQ -->
+  <!-- dúvidas -->
   <section class="faq-section container flex-center" id="duvidas">
     <h2>Dúvidas</h2>
     <!-- Question 1 -->
@@ -246,102 +224,58 @@
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- footer -->
   <footer class="footer">
     <div class="container">
-      <!-- Logo -->
-      <img src="assets/images/global/logo.svg" Logotipo da My Pets">
-      <!-- Footer Links -->
+      <img src="assets/images/global/logo.svg" alt="Logo da My Pets">
       <div>
-        <!-- Navegation -->
         <h6>Navegação</h6>
-        <ul class="nav-links flex" id="nav-links">
-          <li>
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#sobre" class="nav-link">Sobre</a>
-          </li>
-          <li>
-            <a href="#postos" class="nav-link">Postos</a>
-          </li>
-          <li>
-            <a href="#testemunhos" class="nav-link">Testemunhos</a>
-          </li>
-          <li>
-            <a href="#duvidas" class="nav-link">Dúvidas</a>
-          </li>
-          <li>
-            <a href="ficha.html" class="nav-link">Ficha Online</a>
-          </li>
-        </ul>
+        <div class="nav-links flex">
+          <a href="/index.html">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#postos">Postos</a>
+          <a href="#testemunhos">Testemunhos</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a href="ficha.html">Ficha Online</a>
+        </div>
       </div>
-      <!-- Links Add -->
       <div>
         <h6>Linsk Adicionais</h6>
-        <ul class="nav-links flex" id="nav-links">
-          <li>
-            <a href="#" class="nav-link">Serviços</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Processos</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Carreiras</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Politicas de Prividade</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Termos de Uso</a>
-          </li>
-        </ul>
+        <div class="nav-links flex">
+          <a href="#">Serviços</a>
+          <a href="#">Processos</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Politicas de Prividade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
       </div>
-      <!-- Contact Info -->
       <div>
         <h6>Informações de Contato</h6>
-        <ul class="nav-links flex" id="nav-links">
-          <li>
-            <a href="#" class="nav-link">Av. Nome da Avenida, 9999 - Centro - SP</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">contato@mypets.com</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">suporte@mypets.com</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">+ 55 99 9999-9999</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">CNPJ: 70.923.240/0001-43</a>
-          </li>
-        </ul>
+        <div class="nav-links flex">
+          <a href="#">Av. Nome da Avenida, 9999 - Centro - SP</a>
+          <a href="#">contato@mypets.com</a>
+          <a href="#">suporte@mypets.com</a>
+          <a href="#">+ 55 99 9999-9999</a>
+          <a href="#">CNPJ: 70.923.240/0001-43</a>
+        </div>
       </div>
       <hr>
       <div class="footer-infos">
         <span>© 2025 Mypets | Todos os Direitos Reservados</span>
-        <ul>
-          <li>
-            <a href="#">
-              <i class="ri-facebook-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="ri-instagram-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="ri-linkedin-fill"></i>
-            </a>
-          </li>
-        </ul>
+        <div>
+          <a href="#">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="#">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a href="#">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
-
   <!-- Js -->
   <script src="assets/js/global/menu-mobile.js"></script>
   <script src="assets/js/pages/index/faq.js"></script>

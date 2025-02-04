@@ -9,7 +9,7 @@
 
 /* Hero and About */
 .hero,
-.about>.container {
+.sobre>.container {
     justify-content: space-evenly;
     align-items: center;
     gap: 24px;
